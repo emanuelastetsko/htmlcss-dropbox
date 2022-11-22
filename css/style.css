@@ -8,8 +8,73 @@
 /* REGOLE GENERALI */
 
 /* HEADER */
+header{
+    background-color: white;
+}
+
+header .header-container{
+    width: 95vw;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header-container .header-left{
+    margin-left: 10px;
+}
+
+header .header-container .header-right{
+    margin-right: 10px;
+}
+
 
 /* MAIN */ 
+main .jumbotron{
+    background-color: #b4d0e7;
+}
+
+main .jumbotron .jumbotron-container{
+    width: 70%;
+}
 
 /* FOOTER */
 
+
+
+
+
+/* DEBUG */
+
+/* HEADER */
+
+.debug header{
+    min-height: 70px;
+}
+
+.debug header .header-container{
+    background-color: #b4d0e7;
+    min-height: 50px;
+}
+
+.debug header .header-container .header-left{
+    background-color: white;
+    min-height: 20px;
+    min-width: 200px;
+}
+
+.debug header .header-container .header-right{
+    background-color: white;
+    min-height: 20px;
+    min-width: 200px;
+}
+
+/* MAIN */
+
+.debug main .jumbotron {
+    min-height: 500px;
+}
+
+
+
+/* FOOTER */
