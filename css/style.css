@@ -35,9 +35,28 @@ a{
     padding: 7px 12px;
 }
 
+h3{
+    font-size: 3em;
+}  
+
+h4{
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.icon::after{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
 p{
     font-size: 1.8em;
 }
+
+
 
 
 
@@ -76,12 +95,9 @@ header .header-container .header-right{
 
 /* MAIN */ 
 
-main{
-    margin-bottom: 150px;
-}
-
 main .jumbotron{
     background-color: #b4d0e7;
+    margin-bottom: 200px;
 }
 
 main .jumbotron .jumbotron-container{
@@ -113,6 +129,32 @@ main .jumbotron .jumbotron-container i{
     padding-bottom: 40px;
 }
 
+main div .section-container{
+    max-width: 55vw;
+    margin: 0 auto;
+}
+
+main div .section-container .faq-container{
+    padding: 200px 0;
+}
+
+main div .section-container .faq-container h3{
+    padding: 50px 0;
+}
+
+main div .section-container .faq-container h4{
+    padding: 60px 0;
+    border-top: 1px solid black;
+}
+
+main div .section-container .faq-container h4::after{
+    font-family: "Font Awesome 5 Free"; content: "\f078";
+    float: right;
+}
+
+main div .section-container .faq-container h4:last-child{
+    border-bottom: 1px solid black;
+}
 
 
 /* FOOTER */
@@ -168,3 +210,4 @@ footer .footer-container .second-section-footer span{
 footer .footer-container .second-section-footer i:last-child{
     vertical-align: -5px;
 }
+
