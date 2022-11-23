@@ -1,13 +1,49 @@
 /* RESET */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+
 /* REGOLE GENERALI */
 
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
+.button{
+    background-color: #0061ff;
+    color: white;
+    padding: 7px 12px;
+}
+
+p{
+    font-size: 1.8em;
+}
+
+
+
+
 /* HEADER */
+
 header{
     background-color: white;
 }
@@ -22,57 +58,55 @@ header .header-container{
 
 header .header-container .header-left{
     margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+header .header-container .header-left img{
+    padding: 10px;
 }
 
 header .header-container .header-right{
     margin-right: 10px;
+    display: flex;
+    align-items: center;
 }
 
 
+
 /* MAIN */ 
+
 main .jumbotron{
     background-color: #b4d0e7;
 }
 
 main .jumbotron .jumbotron-container{
-    width: 70%;
+    width: 65vw;
+    margin: 0 auto;
 }
 
-/* FOOTER */
-
-
-
-
-
-/* DEBUG */
-
-/* HEADER */
-
-.debug header{
-    min-height: 70px;
+main .jumbotron .jumbotron-container h1{
+    padding: 40px 0;
+    font-size: 7em;
 }
 
-.debug header .header-container{
-    background-color: #b4d0e7;
-    min-height: 50px;
+main .jumbotron .jumbotron-container .description img{
+    float: right;
+    width: 80%;
 }
 
-.debug header .header-container .header-left{
-    background-color: white;
-    min-height: 20px;
-    min-width: 200px;
+main .jumbotron .jumbotron-container .description p{
+    padding-bottom: 40px;
 }
 
-.debug header .header-container .header-right{
-    background-color: white;
-    min-height: 20px;
-    min-width: 200px;
+main .jumbotron .jumbotron-container .description p:last-child{
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
-/* MAIN */
-
-.debug main .jumbotron {
-    min-height: 500px;
+main .jumbotron .jumbotron-container i{
+    font-size: 4em;
+    padding: 50px 0;
 }
 
 
