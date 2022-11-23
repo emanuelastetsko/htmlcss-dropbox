@@ -39,13 +39,31 @@ a{
     padding: 7px 12px;
 }
 
+.main-container{
+    max-width: 55vw;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
+.section-container{
+    max-width: 55vw;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
 h3{
     font-size: 3.7em;
+    padding-bottom: 40px;
 }  
 
 h4{
     font-size: 2em;
     font-weight: 400;
+}
+
+.blue-link{
+    color: #6062f2;
+    text-decoration: underline;
 }
 
 a.white{
@@ -138,10 +156,20 @@ main .jumbotron .jumbotron-container i{
     padding-bottom: 40px;
 }
 
-main .section-container{
-    max-width: 55vw;
-    margin: 0 auto;
-    padding: 150px 0;
+main div section form input[type=radio]{
+    transform: scale(2);
+    vertical-align: middle;
+}
+
+main div section form label{
+    font-size: 1.5em;
+    padding-right: 50px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+main div .section-container .small-section{
+    max-width: 35vw;
 }
 
 main .blue .section-container{
@@ -153,6 +181,7 @@ main .blue .section-container{
 main .blue .section-container h3{
     display: inline-block;
     color: #60072a;
+    padding-bottom: 0;
 }
  
 main .section-container .faq-container h3{
