@@ -14,6 +14,10 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 
+.blue{
+    background-color: #b4d0e7;
+}
+
 ul{
     list-style: none;
 }
@@ -36,12 +40,18 @@ a{
 }
 
 h3{
-    font-size: 3em;
+    font-size: 3.7em;
 }  
 
 h4{
     font-size: 2em;
     font-weight: 400;
+}
+
+a.white{
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
 }
 
 .icon::after{
@@ -96,7 +106,6 @@ header .header-container .header-right{
 /* MAIN */ 
 
 main .jumbotron{
-    background-color: #b4d0e7;
     margin-bottom: 200px;
 }
 
@@ -129,30 +138,38 @@ main .jumbotron .jumbotron-container i{
     padding-bottom: 40px;
 }
 
-main div .section-container{
+main .section-container{
     max-width: 55vw;
     margin: 0 auto;
+    padding: 150px 0;
 }
 
-main div .section-container .faq-container{
-    padding: 200px 0;
+main .blue .section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
-main div .section-container .faq-container h3{
+main .blue .section-container h3{
+    display: inline-block;
+    color: #60072a;
+}
+ 
+main .section-container .faq-container h3{
     padding: 50px 0;
 }
 
-main div .section-container .faq-container h4{
+main .section-container .faq-container h4{
     padding: 60px 0;
     border-top: 1px solid black;
 }
 
-main div .section-container .faq-container h4::after{
+main .section-container .faq-container h4::after{
     font-family: "Font Awesome 5 Free"; content: "\f078";
     float: right;
 }
 
-main div .section-container .faq-container h4:last-child{
+main .section-container .faq-container h4:last-child{
     border-bottom: 1px solid black;
 }
 
