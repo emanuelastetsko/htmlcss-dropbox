@@ -184,6 +184,8 @@ main .jumbotron .jumbotron-container i{
     padding-bottom: 40px;
 }
 
+
+
 /* SELEZIONE PIANO */
 
 main div section form input[type=radio]{
@@ -197,6 +199,8 @@ main div section form label{
     padding-left: 10px;
     vertical-align: middle;
 }
+
+
 
 /* 3 CARD PRINCIPALI */
 
@@ -315,6 +319,8 @@ main .main-container section .bigcard-container .subscription-type::before{
     padding-right: 10px;
 }
 
+
+
 /* SEZIONE CON IMMAGINE DI FIANCO */
 
 main .main-container .partner{
@@ -329,6 +335,8 @@ main .main-container .partner div img{
 main .main-container .partner div:nth-child(2){
     padding-top: 70px;
 }
+
+
 
 /* BUSINESS FEATURE */
 
@@ -346,11 +354,148 @@ main .main-container section .business-feature img{
     height: 400px;
 }
 
+
+
 /* CLIENTI BUSINESS */
 
 main div .section-container .small-section{
     max-width: 35vw;
 }
+
+
+
+/* CLIENTI PIù FAMOSI */
+
+main div .logo-container{
+    display: flex;
+    padding-bottom: 0px;
+}
+
+main div .logo-container .logo-left{
+    width: 35%;
+}
+
+main div .logo-container .logo-middle{
+    width: 30%;
+    background-color: #f5f5f5;
+}
+
+main div .logo-container .logo-right{
+    width: 35%;
+}
+
+/* LEFT */
+
+main div .logo-container .logo-left{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main div .logo-container .logo-left .logo{
+    width: calc(100% / 2);
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+main div .logo-container .logo-left .logo img{
+    width: 50%;
+}
+
+
+main div .logo-container .logo-left .logo .change-my-color{
+    filter: invert(100%);
+}
+
+main div .logo-container .logo-left .light-green{
+    background-color: #a2d39b;
+    border: 30px solid #d1e9cd;
+}
+
+main div .logo-container .logo-left .bordeaux{
+    background-color: #61082b;
+}
+
+main div .logo-container .logo-left .medium-blue{
+    background-color: #0093ce;
+}
+
+main div .logo-container .logo-left .red{
+    background-color: #ff1c1c;
+}
+
+/* MIDDLE */
+
+main div .logo-middle .logo {
+    padding: 70px 50px;
+}
+
+main div .logo-middle .logo img{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 70px;
+}
+
+main div .logo-middle .logo .cit-container{
+    padding: 60px 0;
+}
+
+main div .logo-middle .logo .cit-container .cit{
+    font-size: 1.5em;
+    color: grey;
+}
+
+main div .logo-middle .logo .cit-container .cit:last-child{
+    padding: 30px 0;
+}
+
+/* RIGHT */
+
+main div .logo-container .logo-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main div .logo-container .logo-right .logo{
+    width: calc(100% / 2);
+    max-height: 500px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+main div .logo-container .logo-right .logo img{
+    width: 50%;
+}
+
+main div .logo-container .logo-right .logo{
+    width: calc(100% / 2);
+    min-height: 400px;
+}
+
+main div .logo-container .logo-right .logo .change-my-color{
+    filter: invert(100%);
+}
+
+main div .logo-container .logo-right .medium-red{
+    background-color: #d5001f;
+}
+
+main div .logo-container .logo-right .light-blue{
+    background-color: #b4d0e7;
+}
+
+main div .logo-container .logo-right .dark-blue{
+    background-color: #0d2481;
+}
+
+main div .logo-container .logo-right .yellow{
+    background-color: #ffd830;
+}
+
+
+
+/* PROVA GRATUITA */
 
 main .blue .section-container{
     display: flex;
@@ -363,7 +508,11 @@ main .blue .section-container h3{
     color: #60072a;
     padding-bottom: 0;
 }
- 
+
+
+
+/* DOMANDE FREQUENTI */
+
 main .section-container .faq-container h3{
     padding: 50px 0;
 }
