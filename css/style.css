@@ -188,9 +188,14 @@ main .jumbotron .jumbotron-container i{
 
 /* SELEZIONE PIANO */
 
+main div section .select-subscription{
+    margin: 0 10px;
+}
+
 main div section form input[type=radio]{
     transform: scale(2);
     vertical-align: middle;
+    margin-left: 5px;
 }
 
 main div section form label{
@@ -211,6 +216,7 @@ main .main-container section .card-container{
 
 main .main-container section .card-container .card{
     width: calc(100% / 3);
+    margin: 0 10px;
     padding: 20px 40px;
     border: 1px solid lightgray;
 }
@@ -288,9 +294,9 @@ main .main-container section .card-container .card .subscription-features .check
 /* ULTIMA GRANDE CARD */
 
 main .main-container section .bigcard-container{
-    width: 100%;
+    width: 0 auto;
     padding: 20px 40px;
-    margin: 50px 0;
+    margin: 20px 10px;
     border: 1px solid lightgray;
 }
 
@@ -325,6 +331,7 @@ main .main-container section .bigcard-container .subscription-type::before{
 
 main .main-container .partner{
     display: flex;
+    margin: 0 10px;
 }
 
 main .main-container .partner div img{
@@ -342,6 +349,7 @@ main .main-container .partner div:nth-child(2){
 
 main .main-container section .business-features-container{
     display: flex;
+    margin: 0 10px;
 }
 
 main .main-container section .business-feature{
@@ -360,6 +368,7 @@ main .main-container section .business-feature img{
 
 main div .section-container .small-section{
     max-width: 35vw;
+    margin: 0 10px;
 }
 
 
@@ -503,6 +512,10 @@ main .blue .section-container{
     align-items: baseline;
 }
 
+main .blue .section-container .small-section{
+    margin: 0 10px;
+}
+
 main .blue .section-container h3{
     display: inline-block;
     color: #60072a;
@@ -512,6 +525,10 @@ main .blue .section-container h3{
 
 
 /* DOMANDE FREQUENTI */
+
+main .section-container .faq-container{
+    margin: 0 10px;
+}
 
 main .section-container .faq-container h3{
     padding: 50px 0;
